@@ -1,9 +1,9 @@
 name: Mayhem
 on:
   push:
-    branches: [ main ]
+    branches: [ main, python-example ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, python-example ]
   workflow_dispatch:
   schedule:
     - cron: '0 2 * * *' # run at 1 AM UTC
